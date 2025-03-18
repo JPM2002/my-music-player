@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #282c36;
+    color: white;
+}
+
+.player {
+    margin: 50px auto;
+    padding: 20px;
+    width: 350px;
+    background: #444;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.controls {
+    margin-top: 10px;
+}
+
+button {
+    background-color: #61dafb;
+    border: none;
+    padding: 8px 15px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #21a1f1;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
